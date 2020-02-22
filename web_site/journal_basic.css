@@ -1,17 +1,11 @@
-/* CSE 190 M, Spring 2008, Lab 2, Journal
-   A starter CSS file that gives basic styles to various elements
-   for aesthetic purposes. 
-   
-   NOTE: This file does NOT need changing for the lab.
-*/
-
 a {
-	color: #245F5F;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	color: #E8FBFB;
 }
 
 blockquote {
@@ -19,24 +13,23 @@ blockquote {
 }
 
 body {
-	font-family: "Georgia";
-	color: #009097;
+	font-family: "Bradley Hand ITC";
+	color: #2e4d97;
+	background-color: #009097;
 }
 
 
 h1, h2 {
-	font-weight: normal;
-	font-family: "Century Gothic";
+	font-family: "Times New Roman";
 	margin: 3px;
-	padding: 0px;
+	padding: 2px;
 }
 
 img {
-	border-style: none;
-	padding: 5px;
+	padding: 4px;
 }
 
 ul {
-	padding-left: 10px;
 	margin: 2px 10px 2px 5px;
+	color: white;
 }
